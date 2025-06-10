@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="p2.css">
 </head>
 <body>
+    <div class="container">
+   <h1>BMI Calculator</h1>
 
-    <form action="">
-    <h1>simple BMI Calculator </h1>
+   <form>
+      <p> <label>Height in CM: </label> <input type="text" id="height" /> </p>  
+      
+      <p> <label>Weight in KG: </label> <input type="text" id="weight" /> </p>  
 
-    <p><input type="text" class="inputField" id="height"></p>
-   
-    <p> <input type="text" class="inputField" id="weight"></p>
+      <button>Calculate</button>
+      <div id="result"></div>
 
-    <p><input type="submit" value="submit" id="result"></p>
-    
-    </form>
+   </form>
+   </div>
 </body>
 <script src="p2.js"></script>
 </html>
